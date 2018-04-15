@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "node-xlsx": "^0.12.0",
+    "winston": "^3.0.0-rc4"
+  },
+  "name": "jasonff-tb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JasonFF/jasonff-tb.git",
+  "author": "JasonFF <925784658@qq.com>",
+  "license": "MIT"
+}
