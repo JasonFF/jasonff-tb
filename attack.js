@@ -15,7 +15,6 @@
 const phantom = require('phantom');
 let index = 0
 setInterval(() => {
-  (async function() {
     const instance = await phantom.create();
     const page = await instance.createPage();
     await page.on('onResourceRequested', function(requestData) {
@@ -29,6 +28,5 @@ setInterval(() => {
     index++
     console.log(index)
     await instance.exit();
-  })();
 }, 20000)
 
