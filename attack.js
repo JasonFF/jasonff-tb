@@ -21,7 +21,7 @@ setInterval(() => {
       console.info('Requesting', requestData.url);
     });
   
-    const status = await page.open('https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w137644-18145789117.26.43da45e7NlWPkw&id=567584172920');
+    const status = await page.open('https://item.taobao.com/item.htm?spm=a1z10.1-c.w1004-17519367055.1.18c76aa2vV60PY&id=565125865250');
     const content = await page.property('content');
     console.log(content);
   
